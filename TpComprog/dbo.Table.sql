@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[Character_Id]
+(
+	[Character_Id] INT PRIMARY KEY IDENTITY(1,1),
+	name NVARCHAR(50) NOT NULL,
+	gender NVARCHAR(50) NOT NULL,
+	Hair_Style NVARCHAR(50) NOT NULL,
+	Hair_Color NVARCHAR(50) NOT NULL,
+	Eye_Shape NVARCHAR(50) NOT NULL,
+	skin_Color NVARCHAR(50) NOT NULL,
+	Body_Type NVARCHAR(50) NOT NULL,
+	Under_Garment NVARCHAR(50) NOT NULL,
+	Clothes NVARCHAR(50) NOT NULL,
+	Cosmetics NVARCHAR(50) NOT NULL,
+	Tattoo NVARCHAR(50) NOT NULL,
+	Piercing NVARCHAR(50) NOT NULL,
+	Prosthetics NVARCHAR(50) NOT NULL,
+	Scars NVARCHAR(50) NOT NULL,
+	Accessories NVARCHAR(50) NOT NULL,
+	Job NVARCHAR(50) NOT NULL,
+	Weapon_Type NVARCHAR(50) NOT NULL,
+
+
+
+	
+	
+);
